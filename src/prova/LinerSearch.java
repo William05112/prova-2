@@ -51,13 +51,9 @@ public class LinerSearch {
         System.out.println("Trovato");
     }
 
-
-
-
-
-
-
         scanner.close();
+
+        int sei = 6;
     }
     
 }
