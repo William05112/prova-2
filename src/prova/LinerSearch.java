@@ -53,7 +53,7 @@ public class LinerSearch {
 
         scanner.close();
 
-        int sei = 6;
+      
     }
     
 }
