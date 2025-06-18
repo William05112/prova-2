@@ -7,15 +7,14 @@ public class ArrayPush {
 
         int[] numbers = {6, 5, 8, 9, 10};
         int[] newNumbers = new int[numbers.length + 1];
-        String stringa = Arrays.toString(numbers);
+
+        for (int i = 0; i < numbers.length; i++) {
+            newNumbers[i] = numbers[i];
+            
+        }
+        newNumbers[numbers.length] = 22;
+        String stringa = Arrays.toString(newNumbers);
         System.out.println(stringa);
-       
-
-    
-        
-
-        
-
         
 
         // for (int i = 0; i < numbers.length; i++) {
@@ -27,10 +26,6 @@ public class ArrayPush {
 
         // System.out.println(numbers.length);
 
-
-
-
-        
     }
     
 }
